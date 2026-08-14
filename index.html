@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Gebremedhin Assefa — AI, Bioinformatics and Computational Biology researcher.">
+<title>Gebremedhin Assefa | AI & Computational Biology</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a class="logo" href="#home">GA<span>.</span></a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#education">Education</a>
+    <a href="#publications">Publications</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="cv-button" href="CV.pdf" download>Download CV ↓</a>
+  <button class="menu-button" onclick="toggleMenu()">☰</button>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-slides" aria-hidden="true">
+    <div class="hero-slide active" style="background-image:url('images/hero-1.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero-2.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero-3.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero-4.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero-5.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero-6.jpg')"></div>
+  </div>
+  <div class="hero-overlay"></div>
+
+  <button class="slider-arrow left" onclick="changeSlide(-1)" aria-label="Previous slide">‹</button>
+  <button class="slider-arrow right" onclick="changeSlide(1)" aria-label="Next slide">›</button>
+
+  <div class="hero-content">
+    <div class="hero-identity">
+      <img class="profile-photo" src="images/id photo.jpg" alt="Gebremedhin Assefa">
+      <div>
+        <p class="eyebrow">AI • BIOINFORMATICS • COMPUTATIONAL BIOLOGY</p>
+        <h1>Gebremedhin<br><em>Assefa</em></h1>
+      </div>
+    </div>
+    <p class="role">AI & Computational Biology Researcher</p>
+    <p class="hero-description">I develop deep learning methods for biological data analysis, Biomedical image analysis, Bioinformatics, and computational drug discovery.</p>
+    <div class="hero-buttons">
+      <a href="#research" class="button primary">Explore My Research →</a>
+      <a href="CV.pdf" class="button secondary" download>View / Download CV</a>
+    </div>
+  </div>
+
+  <div class="hero-bottom">
+    <span>Research Portfolio</span>
+    <div class="slide-dots">
+      <button class="dot active" onclick="goToSlide(0)"></button>
+      <button class="dot" onclick="goToSlide(1)"></button>
+      <button class="dot" onclick="goToSlide(2)"></button>
+      <button class="dot" onclick="goToSlide(3)"></button>
+      <button class="dot" onclick="goToSlide(4)"></button>
+      <button class="dot" onclick="goToSlide(5)"></button>
+    </div>
+  </div>
+</section>
+
+<section class="quick-facts">
+  <div><strong>AI</strong><span>Research Focus</span></div>
+  <div><strong>CS</strong><span>Computer Science</span></div>
+  <div><strong>2+</strong><span>Research Publications</span></div>
+  <div><strong>2027</strong><span>PhD Target</span></div>
+</section>
+
+<section id="about" class="section about">
+  <div class="section-heading"><p class="eyebrow">ABOUT ME</p><h2>Building AI methods for biological discovery and Biomedical Image Analysis.</h2></div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I am a Computer Science researcher working at the intersection of artificial intelligence, deep learning Biomedical Engineering and bioinformatics.</p>
+      <p>My research focuses on using modern machine learning architectures to model complex biological relationships, with particular interest in Computer Vision, Biomedical Image Analysis, and molecular  interaction prediction Such as protein–ligand binding affinity prediction, protein–RNA interactions and computational drug discovery.</p>
+      <p>I enjoy turning biological problems into machine-learning problems and developing practical, reproducible computational methods.</p>
+      <div class="about-links">
+        <a href="#research">Research interests →</a>
+        <a href="#publications">Publications →</a>
+      </div>
+    </div>
+    <div class="profile-card">
+      <div class="initials">GA</div>
+      <h3>Gebremedhin Assefa</h3>
+      <p>Computer Science • AI • Bioinformatics</p>
+      <div class="profile-line"><span>Current level</span><b>Master's graduate</b></div>
+      <div class="profile-line"><span>Research area</span><b>AI for Biology</b></div>
+      <div class="profile-line"><span>PhD goal</span><b>AI / Biomedical Engineering / Computer Vision /Computational Biology</b></div>
+    </div>
+  </div>
+</section>
+
+<section id="research" class="section research-section">
+  <div class="section-heading"><p class="eyebrow">RESEARCH</p><h2>Research Interests</h2><p>My work combines deep learning with computational biology to address problems in molecular and biological data.</p></div>
+  <div class="research-grid">
+    <article><span>02</span><h3>Protein–RNA Interactions and rotein–Ligand Binding</h3><p>Machine learning methods for understanding and predicting interactions between protein–ligand and proteins and RNA molecules.</p></article>
+    <article><span>01</span><h3>Computer Vision, Biomedical Image Analysis</h3><p>Deep learning approaches for biomedical image analysis, Seg,entation, Setection.</p></article>
+    
+    <article><span>03</span><h3>Deep Learning</h3><p>CNNs, ResNet architectures, transformers and hybrid neural networks for biological prediction tasks.</p></article>
+    <article><span>04</span><h3>Bioinformatics</h3><p>Computational analysis of biological data and the development of predictive models for molecular biology.</p></article>
+    <article><span>05</span><h3>Computational Drug Discovery</h3><p>AI-assisted approaches to molecular modeling, interaction prediction and drug-target analysis.</p></article>
+    <article><span>06</span><h3>AI for Biology</h3><p>Applying modern artificial intelligence techniques to challenging problems in biology and medicine.</p></article>
+  </div>
+</section>
+
+<section id="education" class="section">
+  <div class="section-heading"><p class="eyebrow">EDUCATION</p><h2>Academic Background</h2></div>
+  <div class="timeline">
+    <div class="timeline-item"><div class="timeline-year">2022–2026</div><div><h3>Master of Computer Science and Technology</h3><p class="institution">Central South University, China</p><p>Research focus: AI applied to Biology / Bioinformatics / Computational Biology.</p><p><b>Thesis:</b> DeepBindAffinity: A ResNet Augmented Hybrid CNN-Transformer for Protein-Ligand Binding Affinity Prediction.</p></div></div>
+    <div class="timeline-item"><div class="timeline-year">2018–2022</div><div><h3>Bachelor of Computer Science and Technology</h3><p class="institution">University of Electronic Science and Technology of China (UESTC), China</p><p>Foundation in computer science, programming, algorithms, databases and software development.</p></div></div>
+  </div>
+</section>
+
+<section id="publications" class="section publication-section">
+  <div class="section-heading"><p class="eyebrow">PUBLICATIONS</p><h2>Research Output</h2><p>A selection of my research work and academic contributions.</p></div>
+  <div class="publication">
+    <div class="pub-year">2025</div>
+    <div><h3>DeepBindAffinity: A ResNet Augmented Hybrid CNN-Transformer for Protein-Ligand Binding Affinity Prediction</h3><p>Presented at IEEE BIBM 2025.</p><span class="badge">Protein–Ligand • Deep Learning</span></div>
+    <a href="#" class="pub-link">Paper / DOI →</a>
+  </div>
+  <div class="publication">
+    <div class="pub-year">2025</div>
+    <div><h3>DDSSA: Dual-Stream Synthetic Accessibility Framework for Organic Compounds</h3><p>Research contribution using Graph Attention Networks for molecular topology with a Bidirectional GRU for sequential SMILES.</p><span class="badge">CNN • ResNet • Bioinformatics</span></div>
+    <a href="#" class="pub-link">Paper →</a>
+  </div>
+  <p class="publication-note">More publications, manuscripts and links can be added here as your research portfolio grows.</p>
+</section>
+
+<section id="skills" class="section skills-section">
+  <div class="section-heading"><p class="eyebrow">TECHNICAL SKILLS</p><h2>Tools & Technologies</h2></div>
+  <div class="skills-grid">
+    
+    <div class="skill-group"><h3>Programming</h3><div><span>Python</span><span>C</span><span>C++</span><span>Java</span></div></div>
+    <div class="skill-group"><h3>Computer Vision</h3><div><span>Semantic Segmentation</span><span>CNN Architectures, ResNet, U-Net</span><span>Biomedical Image Segmentation</span><span>Deep Learning for Biomedical Imaging</span></div></div>
+    <div class="skill-group"><h3>AI & Machine Learning</h3><div><span>Deep Learning</span><span>CNN</span><span>ResNet</span><span>Transformers</span></div></div>
+    <div class="skill-group"><h3>Bioinformatics</h3><div><span>Computational Biology</span><span>Biomedical Image Analysis</span><span>Protein–RNA and Protein–Ligand</span><span>Drug Discovery</span></div></div>
+    <div class="skill-group"><h3>Web & Software</h3><div><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Node.js</span></div></div>
+    <div class="skill-group"><h3>Computer Science</h3><div><span>Data Structures</span><span>Databases</span><span>Information Security</span><span>Big Data</span></div></div>
+  </div>
+</section>
+
+<section class="section project-section">
+  <div class="section-heading"><p class="eyebrow">FEATURED PROJECT</p><h2>DeepBindAffinity</h2><p>A research project at the intersection of deep learning and computational drug discovery.</p></div>
+  <div class="project-card">
+    <div><span class="project-label">RESEARCH PROJECT</span><h3>ResNet + Hybrid CNN–Transformer</h3><p>DeepBindAffinity is designed for protein–ligand binding affinity prediction, combining convolutional representations with transformer-based modeling.</p><div class="tech-row"><span>Python</span><span>PyTorch</span><span>ResNet</span><span>CNN</span><span>Transformer</span></div></div>
+    <div class="project-number">DBA<br><small>01</small></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-inner">
+    <p class="eyebrow">CONTACT</p>
+    <h2>Let's connect about research.</h2>
+    <p>I am interested in PhD opportunities, research collaborations and projects involving AI, bioinformatics and computational biology.</p>
+    <div class="contact-actions">
+      <a class="button primary" href="mailto:your.email@example.com">Email Me →</a>
+      <a class="button secondary dark" href="CV.pdf" download>Download CV ↓</a>
+    </div>
+  </div>
+</section>
+
+<footer><div><b>Gebremedhin Assefa</b><span>AI • Bioinformatics • Computational Biology</span></div><p>© 2026</p></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
